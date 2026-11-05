@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['btn', 'btn_1', 'btn_2', 'btn_3', 'btn_4', 'btn_close', 'btn_down', 'btn_open', 'btn_up', 'btn_up_light']
+
+roboflow:
+  workspace: finalproject-kqqyh
+  project: elevator_button-atgoq
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/finalproject-kqqyh/elevator_button-atgoq/dataset/6
