@@ -1,0 +1,21 @@
+AI-Based Elevator Button Recognition System
+
+1. Open a terminal in this folder.
+2. Create and activate a virtual environment (Windows):
+   python -m venv .venv
+   .venv\Scripts\activate
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Run the live camera application:
+   python camera_guidance.py
+5. Enter a floor from 1 to 4. Press Q in the camera window to exit.
+
+Other scripts:
+- python live_detection.py  : show all detected elevator buttons.
+- python button_detection.py: test a selected floor on the bundled test image.
+- python voice_guidance.py  : test detection and voice guidance on the bundled test image.
+- python camera_test.py     : check webcam access.
+
+The trained model is expected at elevator_button_project/best.pt.
+Voice output uses pyttsx3. If your operating system has no configured speech
+voice, install/configure a system text-to-speech voice.
